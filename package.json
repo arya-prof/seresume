@@ -1,0 +1,35 @@
+{
+  "name": "fsresume",
+  "version": "1.0.0",
+  "description": "A modern, responsive resume website built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'No build process required for static site'",
+    "deploy": "echo 'Deploy via GitHub Pages - see DEPLOYMENT.md'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arya-prof/fsresume.git"
+  },
+  "keywords": [
+    "resume",
+    "cv",
+    "portfolio",
+    "github-pages",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Arya Valizadeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arya-prof/fsresume/issues"
+  },
+  "homepage": "https://arya-prof.github.io/fsresume",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
